@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "VKQJoWFPPRZRMwOs5N4Tt0MtR/lYR3E8PhAJUf/7k8riRDHk4T1TgM9ygimg8TIROPEqvIUKq8Mq8TKoPpsd8w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ricke\\source\\repos\\CSCInsertCrypto\\CSCInsertCrypto\\CSCInsertCrypto.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ricke\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.4.0\\amazon.lambda.apigatewayevents.2.4.0.nupkg.sha512",
+    "C:\\Users\\ricke\\.nuget\\packages\\amazon.lambda.core\\1.2.0\\amazon.lambda.core.1.2.0.nupkg.sha512",
+    "C:\\Users\\ricke\\.nuget\\packages\\amazon.lambda.dynamodbevents\\2.0.0\\amazon.lambda.dynamodbevents.2.0.0.nupkg.sha512",
+    "C:\\Users\\ricke\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.1.0\\amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512",
+    "C:\\Users\\ricke\\.nuget\\packages\\awssdk.core\\3.7.0.17\\awssdk.core.3.7.0.17.nupkg.sha512",
+    "C:\\Users\\ricke\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.0.17\\awssdk.dynamodbv2.3.7.0.17.nupkg.sha512",
+    "C:\\Users\\ricke\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
