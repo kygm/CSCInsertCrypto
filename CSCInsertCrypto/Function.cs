@@ -29,6 +29,14 @@ namespace CSCInsertCrypto
         public string supply { get; set; }
         public double priceUsd { get; set; }
 
+        public Coin(string i, string r, string sy, string su, double pri)
+        {
+            id = i;
+            rank = r;
+            symbol = sy;
+            supply = su;
+            priceUsd = pri;
+        }
     }
 
     public class Function
@@ -41,7 +49,7 @@ namespace CSCInsertCrypto
 
             HttpClient client = new HttpClient();
             dynamic obj = new ExpandoObject();
-            //top cryptos api endpoint
+            //top cryptos api endpoint  
             HttpResponseMessage response = client.GetAsync("https://api.coincap.io/v2/assets").Result;
             response.EnsureSuccessStatusCode();
             string result = response.Content.ReadAsStringAsync().Result;

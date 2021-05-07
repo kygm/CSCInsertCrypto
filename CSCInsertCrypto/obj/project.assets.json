@@ -74,80 +74,6 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       }
-    },
-    ".NETCoreApp,Version=v3.1/linux-x64": {
-      "Amazon.Lambda.APIGatewayEvents/2.4.0": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.1/Amazon.Lambda.APIGatewayEvents.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Amazon.Lambda.APIGatewayEvents.dll": {}
-        }
-      },
-      "Amazon.Lambda.Core/1.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {}
-        }
-      },
-      "Amazon.Lambda.DynamoDBEvents/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "AWSSDK.DynamoDBv2": "3.7.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Amazon.Lambda.DynamoDBEvents.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Amazon.Lambda.DynamoDBEvents.dll": {}
-        }
-      },
-      "Amazon.Lambda.Serialization.SystemTextJson/2.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Amazon.Lambda.Core": "1.2.0"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
-        }
-      },
-      "AWSSDK.Core/3.7.0.17": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
-        }
-      },
-      "AWSSDK.DynamoDBv2/3.7.0.17": {
-        "type": "package",
-        "dependencies": {
-          "AWSSDK.Core": "[3.7.0.17, 4.0.0)"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {}
-        }
-      },
-      "Newtonsoft.Json/13.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      }
     }
   },
   "libraries": {
@@ -375,11 +301,6 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "linux-x64": {
-        "#import": []
       }
     }
   }
